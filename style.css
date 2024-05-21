@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.b33 a{
+    color: white;
+    text-decoration: none;
+}
+
+.b55 a{
+    color: white;
+    text-decoration: none;
+
+}
+.main-logo{
+    width: 150px;
+}
+.left{
+    width: 400px;
+    line-height: 2;
+}
+.banner-img{
+    width: 300px;
+    border-radius: 8px;
+}
+.banner-container{
+
+    width: 100%;
+    padding-top: 10px;
+    gap: 300px;
+}
+.card{
+    width: 460px;
+    height: 290px;
+    border: none;
+
+
+}
+.description{
+
+    width: 500px;
+    
+}
+.port-card{
+    width: 1000px;
+    margin: auto;
+    border-radius: 6px;
+    
+    box-shadow: 4px 4px 8px gray;
+}
+
+@media only screen and (max-width: 980px) {
+    
+    
+    .port-card{
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .main-logo{
+        margin: 0px;
+    }
+    
+    .banner-container{
+        margin: auto;
+
+        width: 50%;
+        padding-top: 10px;
+        gap: 300px;
+    }
+    
+    .port-card{
+        width: 300px;
+    }
+    .button-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .b1{
+        margin: 10px;
+    }
+}
+.in{
+    margin-top: 150px;
+    width: 400px;
+}
+.education{
+    gap: 60px;
+}
+@media only screen and (max-width: 827px) {
+    
+    
+    .in{
+        margin-top: 0px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    
+    
+    .in{
+        margin-top: 0px;
+        width: 300px;
+    }
+}
+
+.contact-card{
+    width: 670px;
+    height: 370px;
+}
+
+@media only screen and (max-width: 750px) {
+    .contact-card{
+        width: 300px;
+        height: 370px;
+
+    }
+}
+@media only screen and (max-width: 348px) {
+    .contact-card{
+        width: 200px;
+        height: 350px;
+
+    }
+}
+
+footer{
+    background-color: antiquewhite;
+    
+}
+.foot-container{
+    padding: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+    .b22{
+        margin-top: 10px;
+
+    }
+}
+@media only screen and (max-width: 425px) {
+    .banner-container{
+
+        width: 100%;
+        gap: 100px;
+    }
+    .left{
+        padding: 5px;
+    }
+}
+
